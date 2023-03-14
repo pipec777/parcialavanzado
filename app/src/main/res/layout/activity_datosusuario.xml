@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".datosusuario">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:id="@+id/materialToolbar4"
+                    android:layout_width="535dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/rectangulos"
+                    android:minHeight="?attr/actionBarSize"
+                    android:theme="?attr/actionBarTheme"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.571"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/estadoa"
+                    android:layout_width="122dp"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:text="DATOS USUARIO"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="@+id/materialToolbar4"
+                    app:layout_constraintEnd_toEndOf="@+id/materialToolbar4"
+                    app:layout_constraintStart_toStartOf="@+id/materialToolbar4"
+                    app:layout_constraintTop_toTopOf="@+id/materialToolbar4" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/materialToolbar10"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/usuario"
+                android:textColor="#FFEB3B"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/usuest"
+                android:layout_width="272dp"
+                android:layout_height="48dp"
+                android:background="@drawable/stylo_bordes"
+                android:ems="10"
+                android:hint="@string/nada"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="379dp"
+                android:layout_height="20dp"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/pass"
+                android:textColor="#FFEB3B"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/contres"
+                android:layout_width="272dp"
+                android:layout_height="48dp"
+                android:background="@drawable/stylo_bordes"
+                android:ems="10"
+                android:hint="@string/nada"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/materialToolbar7"
+                android:layout_width="377dp"
+                android:layout_height="20dp"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/materialToolbar8"
+                android:layout_width="379dp"
+                android:layout_height="20dp"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/materialToolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/nota"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></com.google.android.material.appbar.MaterialToolbar>
+
+            <TextView
+                android:id="@+id/nota"
+                android:layout_width="272dp"
+                android:layout_height="48dp"
+                android:background="@drawable/stylo_bordes"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/nada"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></com.google.android.material.appbar.MaterialToolbar>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AGREGAR" />
+
+</LinearLayout>

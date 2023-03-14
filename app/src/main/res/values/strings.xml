@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UNIAGUSTINIANA</string>
+    <string name="matricularse">DATOS USUARIO</string>
+    <string name="ingreso">INGRESAR</string>
+    <string name="usuario">NOMBRE : </string>
+    <string name="pass">CUIDAD : </string>
+    <string name="nada"></string>
+    <string name="nota">EDAD</string>
+</resources>
