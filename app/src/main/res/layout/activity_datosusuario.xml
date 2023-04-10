@@ -180,9 +180,18 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="AGREGAR" />
+        android:id="@+id/registrodatos"
+        android:layout_width="163dp"
+        android:layout_height="70dp"
+        android:background="@drawable/boton1stylo"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/registrar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
 
 </LinearLayout>

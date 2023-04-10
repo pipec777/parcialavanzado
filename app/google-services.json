@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "527395997331",
+    "project_id": "pruebaapp-920fb",
+    "storage_bucket": "pruebaapp-920fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527395997331:android:1ee6e8f7f07717ba48af66",
+        "android_client_info": {
+          "package_name": "com.example.parcialprimercorte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527395997331-krnout7oo7g6hc592pat94h1porqgug6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKQ6iJWGmM2Q_8WrhVIFGhftfw4cVKSNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527395997331-krnout7oo7g6hc592pat94h1porqgug6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

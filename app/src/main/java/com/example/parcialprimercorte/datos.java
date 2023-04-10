@@ -4,31 +4,39 @@ import java.io.Serializable;
 public class datos implements Serializable {
 
     private String nombre;
-    private String cuidad;
+    private String ciudad;
 
 
-    datos()
-    {
+    datos() {
         this.nombre="";
-        this.cuidad="";
+        this.ciudad="";
+
+    }
+    datos(String nombre, String ciudad){
+
+        this.nombre = nombre;
+        this.ciudad = ciudad;
 
     }
 
-    datos(String nombre, String cuidad){
-
-        this.nombre=nombre;
-        this.cuidad=cuidad;
-    }
-
-    public static String getNombre() {
-
+    public String getNombre() {
 
         return nombre;
     }
 
-    public String getCuidad() {
+    public void setNombre(String nombre) {
 
-        return cuidad;
+        this.nombre = nombre;
+    }
+
+    public String getCiudad() {
+
+        return ciudad;
+    }
+
+    public void setCiudad(String ciudad)
+    {
+        this.ciudad = ciudad;
     }
 
 }

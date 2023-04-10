@@ -6,4 +6,6 @@
     <string name="pass">CUIDAD : </string>
     <string name="nada"></string>
     <string name="nota">EDAD</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="login">LOGIN</string>
 </resources>

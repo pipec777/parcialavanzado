@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "365741952756",
+    "project_id": "firetest-fa22f",
+    "storage_bucket": "firetest-fa22f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365741952756:android:0dc4132b4359906b25d8a1",
+        "android_client_info": {
+          "package_name": "com.example.parcialprimercorte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365741952756-bh50tvmo3avt0sn31kkff1kani0ltlia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTf5m-U3VO1HbH1XNESzcmHXDdtMOznPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365741952756-bh50tvmo3avt0sn31kkff1kani0ltlia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
